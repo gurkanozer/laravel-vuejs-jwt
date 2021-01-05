@@ -1,0 +1,35 @@
+
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/templates/blog-home)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+.purple-background{
+  background: #2C2C5B;
+}
+.dark-background{
+  background-color:rgb(46, 64, 83)!important;
+}
+.masthead {
+  height: 100vh;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+.navbar-brand{
+  color:#fff!important;
+}
+.navbar{
+  background:rgb(46, 64, 83,0.3)!important;
+  transition: background .8s ease-out; 
+  ul{ 
+    li a{
+      color:#fff;
+    }
+  }
+}
+.nav-scroll{
+  background-color:rgb(46, 64, 83,1)!important;;
+}
