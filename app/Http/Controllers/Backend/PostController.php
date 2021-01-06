@@ -56,7 +56,7 @@ class PostController extends Controller
                 $post = Post::create([
                     'title' => $request->title,
                     'category_id' => $request->category_id,
-                    'content' => $request->content,
+                    'content' => strip_tags($request->content,'<br><h1><h2><h3><h4><p><img><a>'),
                     'user_id' => auth()->user()->id,
                     'img' => $input['imagename']
                 ]);

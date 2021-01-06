@@ -10805,7 +10805,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n.login-form[data-v-781213ce] {\r\n  text-align: center;\r\n  width: 360px;\r\n  position: fixed;\r\n  top: 40%;\r\n  left: 50%;\r\n  transform: translate(-50%, -50%);\n}\r\n", ""]);
+exports.push([module.i, "\n.login-form[data-v-781213ce] {\n  text-align: center;\n  width: 360px;\n  position: fixed;\n  top: 40%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n", ""]);
 
 // exports
 
@@ -10824,7 +10824,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\nlabel[data-v-25357790] {\r\n  text-align: right;\r\n  color: #2d3436;\r\n  font-size: 16px;\n}\n.multiselect[data-v-25357790] {\r\n  border: none !important;\r\n  border-bottom: 1px solid #2d3436 !important;\n}\n@media (max-width: 768px) {\nlabel[data-v-25357790] {\r\n    text-align: left !important;\n}\n}\r\n", ""]);
+exports.push([module.i, "\nlabel[data-v-25357790] {\n  text-align: right;\n  color: #2d3436;\n  font-size: 16px;\n}\n.multiselect[data-v-25357790] {\n  border: none !important;\n  border-bottom: 1px solid #2d3436 !important;\n}\n@media (max-width: 768px) {\nlabel[data-v-25357790] {\n    text-align: left !important;\n}\n}\n", ""]);
 
 // exports
 
@@ -10843,7 +10843,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n@media (max-width: 768px) {\nlabel[data-v-535fe08f] {\r\n    text-align: left !important;\n}\n}\r\n", ""]);
+exports.push([module.i, "\n@media (max-width: 768px) {\nlabel[data-v-535fe08f] {\n    text-align: left !important;\n}\n}\n", ""]);
 
 // exports
 
@@ -10862,7 +10862,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../../node_modules/c
 
 
 // module
-exports.push([module.i, "\n@media (max-width: 768px) {\nlabel[data-v-99f0666e] {\r\n        text-align: left !important;\n}\n}\r\n", ""]);
+exports.push([module.i, "\n@media (max-width: 768px) {\nlabel[data-v-99f0666e] {\n        text-align: left !important;\n}\n}\n", ""]);
 
 // exports
 
@@ -10881,7 +10881,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.custom-file-input ~ .custom-file-label[data-v-14e8d13d]::after {\r\n  content: \"Se\\E7\" !important;\r\n  background: #fff;\n}\n.custom-file-label[data-v-14e8d13d]{  \r\n    border-radius: 0%;\r\n  border: 1px solid #2d3436!important;\n}\nimg[data-v-14e8d13d]{\r\n    width:55px;\r\n    height:55px;\n}\r\n", ""]);
+exports.push([module.i, "\n.custom-file-input ~ .custom-file-label[data-v-14e8d13d]::after {\n  content: \"Se\\E7\" !important;\n  background: #fff;\n}\n.custom-file-label[data-v-14e8d13d]{  \n    border-radius: 0%;\n  border: 1px solid #2d3436!important;\n}\nimg[data-v-14e8d13d]{\n    width:55px;\n    height:55px;\n}\n", ""]);
 
 // exports
 
@@ -10900,7 +10900,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.form-control[data-v-d1514006]{\r\n  border:none;\r\n  border-radius: 0%;\r\n  border:1px solid #2d3436;\n}\nlabel[data-v-d1514006] {\r\n  text-align: right;\r\n  color: #2d3436;\r\n  font-size: 16px;\n}\n@media (max-width: 768px) {\nlabel[data-v-d1514006] {\r\n    text-align: left !important;\n}\n}\r\n", ""]);
+exports.push([module.i, "\n.form-control[data-v-d1514006]{\n  border:none;\n  border-radius: 0%;\n  border:1px solid #2d3436;\n}\nlabel[data-v-d1514006] {\n  text-align: right;\n  color: #2d3436;\n  font-size: 16px;\n}\n@media (max-width: 768px) {\nlabel[data-v-d1514006] {\n    text-align: left !important;\n}\n}\n", ""]);
 
 // exports
 
@@ -10919,7 +10919,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\ntextarea[data-v-40f7601b] {\r\n  border-radius: 0%;\r\n  margin: 0;\r\n  outline: none;\r\n  border: none;\r\n  border: 1px solid #2d3436;\n}\ntextarea[data-v-40f7601b]:focus {\r\n  outline: none;\r\n  box-shadow: none;\n}\nlabel[data-v-40f7601b] {\r\n  text-align: right;\r\n  color: #2d3436;\r\n  font-size: 16px;\n}\n@media (max-width: 768px) {\nlabel[data-v-40f7601b] {\r\n    text-align: left !important;\n}\n}\r\n", ""]);
+exports.push([module.i, "\ntextarea[data-v-40f7601b] {\n  border-radius: 0%;\n  margin: 0;\n  outline: none;\n  border: none;\n  border: 1px solid #2d3436;\n}\ntextarea[data-v-40f7601b]:focus {\n  outline: none;\n  box-shadow: none;\n}\nlabel[data-v-40f7601b] {\n  text-align: right;\n  color: #2d3436;\n  font-size: 16px;\n}\n@media (max-width: 768px) {\nlabel[data-v-40f7601b] {\n    text-align: left !important;\n}\n}\n", ""]);
 
 // exports
 
@@ -10938,7 +10938,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\ninput[data-v-4c5298ac] {\r\n  border-radius: 0%;\r\n  margin: 0;\r\n  outline: none;\r\n  border: none;\r\n  border: 1px solid #2d3436;\n}\ninput[data-v-4c5298ac]:focus {\r\n  outline: none;\r\n  box-shadow: none;\n}\nlabel[data-v-4c5298ac] {\r\n  text-align: right;\r\n  color: #2d3436;\r\n  font-size: 16px;\n}\n@media (max-width: 768px) {\nlabel[data-v-4c5298ac] {\r\n    text-align: left !important;\n}\n}\r\n", ""]);
+exports.push([module.i, "\ninput[data-v-4c5298ac] {\n  border-radius: 0%;\n  margin: 0;\n  outline: none;\n  border: none;\n  border: 1px solid #2d3436;\n}\ninput[data-v-4c5298ac]:focus {\n  outline: none;\n  box-shadow: none;\n}\nlabel[data-v-4c5298ac] {\n  text-align: right;\n  color: #2d3436;\n  font-size: 16px;\n}\n@media (max-width: 768px) {\nlabel[data-v-4c5298ac] {\n    text-align: left !important;\n}\n}\n", ""]);
 
 // exports
 
@@ -10957,7 +10957,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\ninput[data-v-d809d3d2] {\r\n  border-radius: 0%;\r\n  margin: 0;\r\n  outline: none;\r\n  border: none;\r\n  border-bottom: 1px solid #2d3436;\n}\ninput[data-v-d809d3d2]:focus {\r\n  outline: none;\r\n  box-shadow: none;\n}\nlabel[data-v-d809d3d2] {\r\n  text-align: right;\r\n  color: #2d3436;\r\n  font-size: 16px;\n}\n@media (max-width: 768px) {\nlabel[data-v-d809d3d2] {\r\n    text-align: left !important;\n}\n}\r\n", ""]);
+exports.push([module.i, "\ninput[data-v-d809d3d2] {\n  border-radius: 0%;\n  margin: 0;\n  outline: none;\n  border: none;\n  border-bottom: 1px solid #2d3436;\n}\ninput[data-v-d809d3d2]:focus {\n  outline: none;\n  box-shadow: none;\n}\nlabel[data-v-d809d3d2] {\n  text-align: right;\n  color: #2d3436;\n  font-size: 16px;\n}\n@media (max-width: 768px) {\nlabel[data-v-d809d3d2] {\n    text-align: left !important;\n}\n}\n", ""]);
 
 // exports
 
@@ -32152,7 +32152,7 @@ var render = function() {
           { staticClass: "card-body" },
           [
             _c("h5", { staticClass: "card-title" }, [
-              _vm._v("\r\n          Profil Bilgilerini Güncelle\r\n      ")
+              _vm._v("\n          Profil Bilgilerini Güncelle\n      ")
             ]),
             _vm._v(" "),
             _c("hr"),

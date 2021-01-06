@@ -24,14 +24,12 @@ use App\Http\Controllers\Backend\TagController;
 use App\Http\Controllers\Backend\PostController;
 use App\Http\Controllers\Backend\SettingController;
 use App\Http\Controllers\Backend\StaticPageController;
-
 //Frontend
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\StaticPageController as SPController;
+use App\Http\Controllers\Frontend\DetailPageController;
 
 
-    Route::get('/',[HomeController::class,'index']);
-    Route::get('/{page}',[SPController::class,'index']);
 
 //API ROUTES
 Route::middleware('auth')->prefix('/api')->group(function(){
@@ -76,9 +74,11 @@ Route::middleware('auth')->prefix('/api')->group(function(){
     Route::post('edit_static_pages',[StaticPageController::class,'update']);
 });
 
-
-
 //ROUTES
 Route::get('/v1/{any1}',[Pager::class,'index']);
 Route::get('/v1/{any1}/{any2}',[Pager::class,'index']);
 Route::get('/v1/{any1}/{any2}/{any3}',[Pager::class,'index']);
+
+Route::get('/',[HomeController::class,'index']);
+Route::get('/{page}',[SPController::class,'index']);
+Route::get('/{category_slug}/{title_slug}',[DetailPageController::class,'index']);

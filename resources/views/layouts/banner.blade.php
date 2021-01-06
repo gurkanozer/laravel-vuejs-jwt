@@ -4,7 +4,7 @@
     <div class="row h-100 align-items-center">
       <div class="col-12 text-center">
         @if ($page->message)
-        <h1 class="font-weight-light text-white">{{$page->message}}</h1>            
+        <h1 class="title">{{$page->message}}</h1>            
         @endif
       </div>
     </div>

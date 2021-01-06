@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card mt-4 mx-auto" style="max-width:420px">
     <form class="card-body">
         <h4 class="card-title">Soru görüş ve önerileriniz için bize ulaşabilirsiniz.</h4>
         <hr/>

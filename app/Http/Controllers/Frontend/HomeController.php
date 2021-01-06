@@ -15,7 +15,7 @@ class HomeController extends Controller
         $context = [];
         $context['page'] = StaticPage::where('title','home')->first();
         $context['settings'] = Setting::first();
-        $context['posts'] = Post::with('user:id,full_name')->with('category:id,title')->get();
+        $context['posts'] = Post::with('user:id,full_name,img')->with('category:id,title,slug')->get(['id','title','content','user_id','category_id','img','slug','updated_at']);
 
         $context['categories'] = Category::get();
         // dd($context['settings']);die();
